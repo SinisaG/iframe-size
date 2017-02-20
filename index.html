@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Iframe size 16:9</title>
+        <meta name="viewport" content="width=device-width, maximum-scale=0.5" />
+        <style>
+            body{
+                margin: 0;
+            }
+            .iframe-wrapper {
+                position: relative;
+                width: 100%;
+                padding-bottom: 56.25%;
+                min-height: 240px;
+                box-sizing: border-box;
+            }
+            iframe {
+                position: absolute;
+                top: 0;
+                border: none;
+                height: 100%;
+                width: 100%;
+            }
+	    </style>
+    </head>
+    <body>
+        <div class="iframe-wrapper">
+            <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD4iE2xVSpkLLOXoyqT-RuPwURN3ddScAI&q=Space+Needle,Seattle+WA"
+                allowfullscreen>
+            </iframe>
+        </div>
+    <body>
+</html>
